@@ -2,5 +2,5 @@
 build_path=$1
 
 echo "Makeing the file at $build_path" 
-echo "HELLO FROM THE FIRST BP" < $build_path/hello.txt
+echo "HELLO FROM THE FIRST BP" >> $build_path/hello.txt
 echo "Done making the file"
