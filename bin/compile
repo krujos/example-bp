@@ -1,5 +1,5 @@
 #!/bin/bash
-build_path = ARGV[0]
+build_path=$1
 
-echo "HELLO FROM THE FIRST BP" << $build_path/hello.txt
+echo "HELLO FROM THE FIRST BP" < $build_path/hello.txt
 
