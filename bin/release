@@ -1,0 +1,4 @@
+echo <<< EOF
+default_process_types:
+  web: 
+EOF
